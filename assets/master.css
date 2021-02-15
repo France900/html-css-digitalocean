@@ -1,0 +1,54 @@
+body {
+
+}
+
+/* NAVBAR -----------------------------*/
+.navbar-brand {
+  padding-top: 9px;
+  padding-bottom: 0;
+}
+.navbar-brand img {
+  width: 150px;
+}
+.navbar-default .container-fluid {
+  background-color: white;
+}
+/* .navbar-default .navbar-brand, */
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: 550;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #006EFB;
+    /* background-color: inherit; */
+}
+/* .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: inherit;
+} */
+.btn-default {
+  background-image: none;
+  background-color: white;
+  color: black;
+  font-weight: 550;
+  border: 2px solid #006EFB;
+  border-radius: 10px;
+}
+.btn-default:focus, .btn-default:hover {
+    background-color: #006EFB;
+    color: white;
+    text-shadow: none;
+    border-color: #006EFB;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .navbar-header {
+    width: 100%;
+  }
+    .navbar-toggle {
+    display: block;
+  }
+    .navbar-nav, .navbar-right {
+    display: none;
+  }
+}
+/* FINE NAVBAR -----------------------------*/
