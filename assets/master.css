@@ -1,8 +1,17 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 body {
 
 }
 
 /* NAVBAR -----------------------------*/
+/* .navbar{
+  margin-bottom: 0;
+} */
 .navbar-brand {
   padding-top: 9px;
   padding-bottom: 0;
@@ -52,3 +61,62 @@ body {
   }
 }
 /* FINE NAVBAR -----------------------------*/
+
+/* <!-- jUMBO --> */
+.jumbo {
+  background-image: url("./img/bg-sea.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+.jumbo .row {
+  padding: 35px;
+}
+
+/* <!-- card 1 --> */
+.card-1 {
+  color: white;
+}
+
+/* <!-- card 2 --> */
+.jumbo .card-2 {
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+}
+.my-br {
+  display: block;
+}
+.card-2 input,
+.card-2 a,
+.card-2 p {
+  margin: 15px 0;
+}
+.card-2 input {
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 4px;
+}
+.my-account {
+  background-image: none;
+  background-color: #0064FF;
+  color: white;
+  /* border: 2px solid #006EFB; */
+  border-radius: 5px;
+  font-size: 0.7em;
+  line-height: 2.5em;
+}
+.my-google {
+  color: black;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 0.7em;
+  line-height: 2.5em;
+}
+.my-google img {
+  height: 15px;
+}
+.card-2 p {
+  font-size: 0.6em;
+}
