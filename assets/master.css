@@ -188,3 +188,30 @@ section.logos i {
 .menu-traker {
   font-size: 0.25em;
 }
+.menu-traker a {
+  margin: 0 5px;
+}
+
+/* <!-- SECTION FOUR --> */
+.sect-four {
+  padding: 50px 0;
+}
+
+.sect-four h2 {
+  padding-bottom: 30px;
+}
+
+.sect-four i {
+  transform: rotate(180deg);
+}
+
+/* <!-- SECTION FIVE --> */
+.sect-five {
+  background-color: blue;
+}
+.sect-five ul li {
+  list-style: none;
+}
+.sect-five ul li a {
+  /* float: left; */
+}
