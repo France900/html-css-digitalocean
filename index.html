@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index-base</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> --> <!-- link a font awesome, es per "carret down" (che trovi sul secondo sito ed è per i simboli)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /><!-- link a font awesome, es per "carret down" (che trovi sul secondo sito ed è per i simboli) -->
     <!-- link preload font [di google (va anche un pezzetto nel css)]-->
     <!-- link font -->
     <!-- Latest compiled and minified CSS --> <!-- da boostrp 3.3.7 https://getbootstrap.com/docs/3.3/getting-started/ -->
@@ -92,9 +92,10 @@
       <section class="jumbo">
         <div class="container">
           <div class="row">
+
             <div class="col-xs-12 col-sm-6">
 <!-- card 1 -->
-              <div class="card-1">
+              <div class="text-white">
                 <h1>
                   The simplest cloud platform for developers & teams
                 </h1>
@@ -103,30 +104,152 @@
                 </p>
               </div>
             </div>
+
             <div class="col-xs-12 col-sm-6">
 <!-- card 2 -->
-              <div class="card-2">
+              <div class="card">
                 <h3>
                   Deploy your app in second<br><span>Ghet started now</span>
                 </h3>
-                <input type="email" placeholder="Email" class="my-br">
-                <input type="password" placeholder="Password" class="my-br">
-                <a href="#" class="my-br my-account">Create your account</a>
-                <a href="#" class="my-br my-google"><img src="./assets/img/g-logo.webp" alt="">Sign up with google</a>
+                <input type="email" placeholder="Email" class="my-input">
+                <input type="password" placeholder="Password" class="my-input">
+                <a href="#" class="my-input my-account">Create your account</a>
+                <a href="#" class="my-input my-google"><img src="./assets/img/g-logo.webp" alt="">Sign up with google</a>
                 <p>
                   By signing up you agree to the <a href="#">terms of service</a>
                 </p>
               </div>
             </div>
+
           </div>
         </div>
-
       </section>
-
     </header>
 
     <main>
+<!-- SECTION ONE -->
+        <section class="logos text-center">
+          <div class="container">
+            <h6>Innovative businesses trust Digitalocean</h6>
+            <div class="row">
+              <div class="col-xs-6 col-sm-4 col-md-2">
+                <img src="./assets/img/index.png" alt="">
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-2">
+                <img src="./assets/img/da244a8e-2546-47b1-aae2-b9824c657708_gitlab-166e2067.svg" alt="">
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-2">
+                <img src="./assets/img/b3f152c0-5465-45ba-80ab-2cdd258e6bee_slack-e20293da.svg" alt="">
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-2">
+                <img src="./assets/img/9351f07e-afbc-439a-a75f-3eca82be9c0e_hashicorp-4431df79.svg" alt="">
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-2">
+                <img src="./assets/img/01ff74d1-79dd-4f18-888f-4a93a976e61d_wework-be6eab32.svg" alt="">
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-2">
+                <img src="./assets/img/1583c145-22f8-402c-96f8-3af919a0df25_splunklogo.svg" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <a href="#">View customer stories <i class="fas fa-angle-left"></i></a>
+              </div>
+            </div>
+        </section>
 
+<!-- SECTION TWO -->
+        <section role="">
+          <div class="container">
+            <div class="row text-center">
+              <h2>Deploy and scale seamlessly</h2>
+              <p>
+                Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.
+              </p>
+            </div>
+            <!-- side menu -->
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <div class="my-side-menu">Deploy</div>
+                <div class="my-side-menu">Manage</div>
+                <div class="my-side-menu">Secure</div>
+                <div class="my-side-menu">Scale</div>
+                <div class="my-side-menu">Monitor</div>
+              </div>
+              <!-- menu grid -->
+              <div class="col-xs-12 col-sm-8">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <img src="./assets/img/1-top-left.svg" alt="">
+                    <h3>Kubernetes in minutes</h3>
+                    <p>
+                      Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <img src="./assets/img/2-top-right.svg" alt="">
+                    <h3>Flexible compute types</h3>
+                    <p>
+                      With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <img src="./assets/img/3-bottom-left.svg" alt="">
+                    <h3>App Platform</h3>
+                    <p>
+                      Build, deploy, and scale apps quickly using a simple, fully managed solution. We’ll handle the infrastructure, app runtimes, and dependencies, so that you can push code to production in just a few clicks.
+                    </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <img src="./assets/img/4-bottom-right.svg" alt="">
+                    <h3>1-Click App Marketplace</h3>
+                    <p>
+                      Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+<!-- SECTION TREE -->
+        <section class="designed-for-developers text-center">
+          <div class="container">
+            <h2>"Designed for developers</h2>
+            <p>
+              Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
+            </p>
+            <i class="fas fa-angle-left" id="left-gray"></i>
+            <img src="./assets/img/5fecd4f1-46ad-434e-a62a-108ffef678cc_App+Platform_empty+state+1.webp" alt="">
+            <i class="fas fa-angle-left -right"></i>
+            <p>
+              Create computer servers in 55 seconds or less.
+            </p>
+            <div class="menu-traker">
+              <i class="fas fa-circle"></i>
+              <i class="far fa-circle"></i>
+              <i class="far fa-circle"></i>
+              <i class="far fa-circle"></i>
+            </div>
+          </div>
+        </section>
+
+        <section>
+        </section>
+        <section>
+        </section>
+        <section>
+        </section>
+
+        <footer>
+          <section>
+          </section>
+          <section>
+          </section>
+        </footer>
+
+      </div> <!-- fine contineer -->
     </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

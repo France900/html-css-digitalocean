@@ -5,7 +5,7 @@
 } */
 
 body {
-
+  font-size: 14px;
 }
 
 /* NAVBAR -----------------------------*/
@@ -74,25 +74,26 @@ body {
 }
 
 /* <!-- card 1 --> */
-.card-1 {
+.text-white {
   color: white;
 }
 
 /* <!-- card 2 --> */
-.jumbo .card-2 {
+.jumbo .card {
   background-color: white;
   padding: 25px;
   text-align: center;
 }
-.my-br {
+.my-input {
   display: block;
+  width: 100%
 }
-.card-2 input,
-.card-2 a,
-.card-2 p {
+.card input,
+.card a,
+.card p {
   margin: 15px 0;
 }
-.card-2 input {
+.card input {
   border: 1px solid lightgray;
   padding: 5px;
   border-radius: 4px;
@@ -116,7 +117,74 @@ body {
 }
 .my-google img {
   height: 15px;
+  float: left;
+  margin-top: 5px;
+  /* margin-left: 5px; */
 }
-.card-2 p {
+.card p {
   font-size: 0.6em;
+}
+
+/* <!-- SECTION ONE --> */
+section.logos {
+  background-color: #F3F5F9;
+  padding-top: 55px;
+  padding-bottom: 30px;
+}
+section.logos h6 {
+  text-transform: uppercase;
+}
+section.logos img {
+  height: 60px;
+  padding: 0 15px;
+}
+section.logos i {
+  color: #3B658A;
+  transform: rotate(180deg);
+}
+@media all and (min-widt: 720px) {
+  section.logos img {
+    height: 45px;
+    padding: 0 0;
+  }
+}
+
+/* <!-- SECTION TWO --> */
+/* <!-- side menu --> */
+.my-side-menu {
+  border-left: 2px solid lightgray;
+  color: gray;
+  padding-left: 8px;
+  line-height: 3em;
+  font-size: 1.5em;
+}
+.my-side-menu:hover {
+  border-left: 2px solid gray;
+  padding-left: 10px;
+  font-size: 2em;
+}
+
+/* <!-- SECTION TREE --> */
+.designed-for-developers {
+  background-color: #F3F5F9;
+  padding: 50px 0;
+}
+.designed-for-developers p {
+  margin: 20px 0;
+}
+.designed-for-developers i {
+  color: #031B4E;
+  font-size: 3em;
+}
+#left-gray {
+  color: gray;
+}
+.designed-for-developers img {
+  height: 500px;
+}
+.designed-for-developers .-right {
+  transform: rotate(180deg);
+}
+.menu-traker {
+  font-size: 0.25em;
 }
