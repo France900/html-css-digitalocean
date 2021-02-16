@@ -212,6 +212,12 @@ section.logos i {
 .sect-five ul li {
   list-style: none;
 }
-.sect-five ul li a {
-  /* float: left; */
+.sect-five ul li::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sect-five a {
+  float: left;
 }
