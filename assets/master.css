@@ -247,7 +247,8 @@ section.logos i {
   background-color: darkblue;
 }
 .correlate-link .container {
-  padding: 45px 0;
+  padding-top: 45px;
+  padding-bottom: 110px;
 }
 footer ul {
   list-style: none;
