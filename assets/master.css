@@ -208,16 +208,110 @@ section.logos i {
 /* <!-- SECTION FIVE --> */
 .sect-five {
   background-color: blue;
+  color: white;
 }
-.sect-five ul li {
-  list-style: none;
+.sect-five h2 {
+ margin-top: 35px;
 }
-.sect-five ul li::after {
-  content: "";
-  display: table;
-  clear: both;
+.sect-five .row {
+  margin: 15px 0;
+}
+.row.bord-bott {
+  border-bottom: 1px solid white;
+}
+.sect-five a {
+  text-decoration: none;
+  /* color: #337ab7; */
 }
 
-.sect-five a {
-  float: left;
+/* <!-- SECTION SIX --> */ /*vedi section 4 */
+
+/* <!-- PARTE UNO --> */
+.part-one  {
+  background-color: blue;
+  color: white;
+  padding: 35px 0;
+}
+
+.part-one .btn-default {
+  background-color: white;
+  color: blue;
+  font-weight: 550;
+  border-radius: 10px;
+  text-shadow: none;
+  border: 2px solid white;
+}
+
+/* <!-- PARTE DUE --> */
+.correlate-link {
+  background-color: darkblue;
+}
+.correlate-link .container {
+  padding: 45px 0;
+}
+footer ul {
+  list-style: none;
+  color: white;
+}
+.li-title{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.correlate-link a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-logo {
+  padding: 20px 0;
+  filter: saturate(0.6);
+}
+.lightgray {
+  color: lightgray
+}
+.darkergray {
+  color: gray;
+}
+.img-custom img {
+  padding: 0 6px;
+  filter: invert(0.5);
+}
+.img-custom img:hover {
+  filter: invert(1);
+}
+
+/* <!-- SHARK AND SPEECH BUBBLE --> */
+.the-fish {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.box {
+  width: 300px;
+  margin-bottom: 20px;
+  background: #00bfb6;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position:relative;
+  display: inline-block;
+}
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #00bfb6;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00bfb6;
+  border-bottom: 10px solid transparent;
+  right: -20px;
+  top: 60px;
+}
+.shark {
+  border-radius: 5px;
+  height: 80px;
+  margin-bottom: 23px;
 }
